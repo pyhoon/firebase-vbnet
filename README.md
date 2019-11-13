@@ -1,2 +1,2 @@
 # firebase-vbnet
-Firebase push notification send to topic using vb net
+Firebase push notification send to topic (VB.NET)
