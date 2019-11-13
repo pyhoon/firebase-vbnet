@@ -35,7 +35,7 @@ Namespace Firebase
             Public Property [content] As String
         End Class
 
-        Public Sub SendNotification(ByVal topic As String, ByVal title As String, ByVal body As String, ByVal received As Date)
+        Public Sub SendNotification(ByVal topic As String, ByVal title As String, ByVal body As String)
             Try
                 Dim fcmPath As String = "https://fcm.googleapis.com/fcm/send"
                 Dim serverKey As String = "AAAAZ..."
