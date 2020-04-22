@@ -11,3 +11,5 @@ This code is modified from the code taken from https://stackoverflow.com/questio
         n.SendNotification("/topics/ios_topic-foobar", "Foo", "Bar")
     End Sub
 ```
+
+Note: Remember to edit the serverKey and senderID inside SendNotification sub.
